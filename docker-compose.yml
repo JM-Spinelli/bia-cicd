@@ -2,7 +2,7 @@ version: "3"
 services:
   server:
     build: .
-    container_name: container-bia-november
+    container_name: bia
     ports:
       - 3001:8080
     links:
